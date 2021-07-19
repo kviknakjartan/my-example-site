@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My first page</title>
+</head>
+<body>
+	<form>
+		<label for="firstName">First name:</label>
+		<input id="firstName" type="text" name="firstName">
+		<label for="lastName">Last name:</label>
+		<input id="lastName" type="text" name="lastName">
+		<input type="submit" value="Submit">
+	</form>
+	<form>
+		<label for="email">Email:</label>
+		<input id="email" type="email" name="email">
+		<label for="phone">Phone:</label>
+		<input id="phone" type="tel" name="phone">
+	</form>
+	<form>
+		<label for="yourMessage">Your message:</label>
+		<textarea id="yourMessage"></textarea>
+	</form>
+	<label for="favoriteColor">What is your favorite color?</label>
+	<select id="favoriteColor" name="favoriteColor">
+		<option value="colorYellow">Yellow</option>
+		<option value="colorRed">Red</option>
+		<option value="colorGreen">Green</option>
+	</select>
+	<fieldset>
+		<legend>What is your favorite meal?</legend>
+		<input type="radio" name="favoriteMeal" id="breakfast" value="meal1">
+		<label for="breakfast">Breakfast</label>
+		<input type="radio" name="favoriteMeal" id="brunch" value="meal2">
+		<label for="brunch">Brunch</label>
+		<input type="radio" name="favoriteMeal" id="lunch" value="meal3">
+		<label for="lunch">Lunch</label>
+	</fieldset>
+	<fieldset>
+		<legend>Which meals do you enjoy (check all that apply)?</legend>
+		<input type="checkbox" name="favoriteMeal" id="breakfast" value="meal1">
+		<label for="breakfast">Breakfast</label>
+		<input type="checkbox" name="favoriteMeal" id="brunch" value="meal2">
+		<label for="brunch">Brunch</label>
+		<input type="checkbox" name="favoriteMeal" id="lunch" value="meal3">
+		<label for="lunch">Lunch</label>
+	</fieldset>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Aisle</th>
+				<th>Price</th>
+				<th>Quantity</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bread</td>
+				<td>2</td>
+				<td>$3.00</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Milk</td>
+				<td>1</td>
+				<td>$2.50</td>
+				<td>2</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Total</td>
+				<td>N/A</td>
+				<td>$5.50</td>
+				<td>N/A</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>

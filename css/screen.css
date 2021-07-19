@@ -1,0 +1,23 @@
+h1 {
+	text-align: center;
+	color: orange;
+	font-size: 165%;
+	font-weight: normal;
+}
+
+header p em {
+	color: blue;
+}
+
+header p {
+	color: green;
+}
+
+.highlight {
+	background-color: yellow;
+}
+
+footer .highlight {
+	background-color: lightgray;
+}
+
